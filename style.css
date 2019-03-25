@@ -1,0 +1,128 @@
+@font-face {
+    src: url(luckiestguy.ttf);
+    font-family: luckiestguy;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background: #ddd;
+    background-image: url('logo.jpg')
+
+}
+
+#container {
+    margin: 1em auto;
+    width: 800px;
+    background: #fff;
+}
+
+header {
+    background-color: orange;
+}
+
+h1 {
+    font-family: luckiestguy;
+    font-size: 50pt;
+    text-align: center;
+}
+
+#mainnav li {
+    position: relative;
+    float: left;
+    list-style: none;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+#mainnav li a {
+    display: block;
+    background: -webkit-linear-gradient(orange, black);
+    color: #fff;
+    text-decoration: none;
+    font-family: "Luckiest Guy";
+    height: 35px;
+    padding-top: 15px;
+}
+
+#mainnav li a:hover {
+    background: -webkit-linear-gradient(#000, #333);
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+#mainnav li ul {
+    position: absolute;
+    left: -40px;
+    display: none;
+}
+
+#mainnav li ul li {
+    list-style: none;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+}
+
+#mainnav li:hover ul {
+    position: absolute;
+    left: -40px;
+    display: block;
+}
+
+#menu {
+    float: right;
+    width: 150px;
+    background-color: orange;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+
+#menu li {
+    list-style: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#menu a {
+    display: block;
+    background: -webkit-linear-gradient(orange, black);
+    color: #fff;
+    text-decoration: none;
+    font-family: "Luckiest Guy";
+    height: 35px;
+    padding-top: 15px;
+}
+
+#menu li a:hover {
+    background: -webkit-linear-gradient(#000, #333);
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+#contents {
+    float: left;
+    width: 440px;
+    background-color: orange;
+    margin: 0 0 0 20px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+img {
+    margin-left: 20px
+}
+
+p {
+    text-align: justify;
+    font-size: 15pt;
+}
+
+footer {
+    clear: both;
+    background-color: #ff9;
+}
